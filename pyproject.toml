@@ -11,6 +11,8 @@ requests = "^2.31.0"
 result = "^0.14.0"
 fastapi = "^0.104.1"
 uvicorn = {extras = ["standard"], version = "^0.24.0.post1"}
+celery = {extras = ["redis"], version = "^5.3.6"}
+redis = "^5.0.1"
 
 
 [build-system]
